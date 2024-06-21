@@ -127,7 +127,7 @@ body {
   opacity: .8;
 }
 .modal_10-top h3 {
-  font-size: 33px;
+  font-size: 32px;
   margin-top: 0;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -168,6 +168,11 @@ body {
   right: 0px;
   z-index: -1;
 
+}
+@media(max-width:1440px) {
+  .modal_10-top h3 {
+    font-size: 31px;
+  }
 }
 @media(max-width:1000px) {
   .modal_10 {
@@ -1515,11 +1520,11 @@ img {
   background-size: contain;
   padding-top:1px;
 }
-  .reviews-contact-footer .wave {
+  /* .reviews-contact-footer .wave {
     position: absolute;
     bottom: 95%;
     width: 100%; 
-  }
+  } */
     @media (max-width: 1700px) {
       .reviews-contact-footer .wave {
         position: absolute;
@@ -2989,7 +2994,7 @@ img {
     overflow: hidden;
     overflow-x: hidden;
     overflow-y: hidden;
-    background-image: url("../img/content-images/woman.jpg");
+    background-image: url("../img/content-images/The-woman-is-sitting.png");
     background-repeat: no-repeat;
     background-position: 100% 50%;
     background-size: contain;
@@ -4005,7 +4010,7 @@ img {
   font-weight: 800;
   font-size: 18px;
   line-height: 140%;
-  color: #377C4E; }
+  color: #889A68 }
 
 .versus__subtitle {
   margin-top: 50px;
@@ -7229,7 +7234,9 @@ box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.08);
 }
 }
 
-
+.inp-glav_nones {
+  display: none;
+}
 
 .zapic {
     border-radius: 10px;
